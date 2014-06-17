@@ -1,14 +1,6 @@
 # Assignment for Ruby Basics
 
-Create a method called `calculate_total` that accepts an order represented as an Array of Hashes and calculates the total cost of the order. Each Hash should represent a line item of the order with a key for the quantity and a key for the unit price of the item. After calculating the total of the order and additional tax rate of 5% should be added. The return value should be a string, the total formatted as a price with 2 decimal points and a dollar sign, such as `$1.99`.
-
-You program should some with a unit test that tests that:
-
-1. An empty order has a total price of `$0.00`
-
-2. An order with 1 line item with a quantity of 2 and a unit price of `$2.00` has a total of `$4.20`.
-
-3. An order with 2 line items, the first with a quantity of 2 and unit price of `$2.00` and the second with a quantity of 3 and a unit price of `$0.89` has a total of `$7.00`.
+Implement the `calculate_total` method so that the tests pass. The method should accept an order represented as an Array of Hashes and calculate the total cost of the order. Each Hash should represent a line item of the order with a key for the quantity and a key for the unit price of the item. After calculating the total of the order and additional tax rate of 5% should be added. The return value should be a string, the total formatted as a price with 2 decimal points and a dollar sign, such as `$1.99`.
 
 ## Hints
 
